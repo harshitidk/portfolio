@@ -9,6 +9,11 @@ body
     padding: 0;
 }
 
+a 
+{
+    text-decoration: none;
+}
+
 .top
 {
     height: 100vh;
@@ -17,7 +22,7 @@ body
     flex-direction: column;
     justify-content: center;
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
 
     &-pic
     {
@@ -64,7 +69,7 @@ body
             position: absolute;
             z-index: -1;
             bottom: -10%;
-            right: -5%;
+            right: 0;
             height: 450px;
             width: 450px;
             border-radius: 50%;
@@ -119,3 +124,54 @@ body
         }
     }    
 }
+
+// ================================
+// ================================
+
+.sec
+{
+    position: relative;
+    height: 160vh;
+    z-index: 2;
+
+    &-design
+    {
+        &-c1
+        {
+            position: relative;
+            top: 10%;
+            left: 12%;
+            text-align: center;
+            font-family: $font3;
+
+            &-about-h
+            {
+                left: 0;
+                right: 0;
+                position: absolute;
+                font-size: 40px;
+                top: 26%;
+                color: $color5;
+            }
+
+            &-about-p
+            {
+                color: $color5;
+                position: absolute;
+                font-size: 18px;
+                top: 40%;
+                line-height: 1.5;
+                left: 0;
+                right: 0;
+                padding: 0px 35px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.hover:hover
+{
+    cursor: pointer;
+}
+

@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-site",
+  "version": "1.0.0",
+  "description": "Fonts - Comforta (cute font) Staatliches (heading font) Balsamiq Sans (somewhat kid type) Amatic SC (thin font) Handlee (favourite)",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitidk/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshitidk/portfolio/issues"
+  },
+  "homepage": "https://github.com/harshitidk/portfolio#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
