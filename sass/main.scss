@@ -1,0 +1,32 @@
+@import 'variable';
+
+body
+{
+    font-family: $font1;
+    background-color: $color1;
+}
+
+.top
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    &-pic
+    {
+        background-image: url('../assets/pic17.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    &-name
+    {
+        font-size: 50px;
+        color: $color5;
+    }
+}

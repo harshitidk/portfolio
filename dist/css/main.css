@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300;400;500;600;700&family=Handlee&family=Staatliches&display=swap");
+body {
+  font-family: "Amatic SC", cursive;
+  background-color: #f2f1ef;
+}
+
+.top {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.top-pic {
+  background-image: url("../assets/pic17.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.top-name {
+  font-size: 50px;
+  color: #413f3d;
+}
+/*# sourceMappingURL=main.css.map */
