@@ -133,6 +133,7 @@ a
     position: relative;
     height: 160vh;
     z-index: 2;
+    overflow-x: hidden;
 
     &-design
     {
@@ -141,8 +142,7 @@ a
             position: relative;
             top: 10%;
             left: 12%;
-            text-align: center;
-            font-family: $font3;
+            text-align: center; 
 
             &-about-h
             {
@@ -150,21 +150,57 @@ a
                 right: 0;
                 position: absolute;
                 font-size: 40px;
-                top: 26%;
+                top: 25%;
                 color: $color5;
+                font-family: $font5;
             }
 
             &-about-p
             {
                 color: $color5;
                 position: absolute;
-                font-size: 18px;
+                font-family: $font2;
+                font-size: 20px;
                 top: 40%;
                 line-height: 1.5;
                 left: 0;
                 right: 0;
                 padding: 0px 35px;
                 text-align: center;
+            }
+        }
+
+        &-c2 
+        {
+            position: absolute;
+            left: 55%;
+            top: 30%;
+            text-align: center;
+            color: $color5;
+            
+            &-skh
+            {
+                right: 0;
+                left: 0;
+                position: absolute;
+                font-size: 40px;
+                top: 20%;
+                font-family: $font5;
+            }
+
+            &-skl
+            {
+                font-family: $font2;
+                right: 0;
+                left: 0;
+                position: absolute;
+                font-size: 20px;
+                top: 34%;
+                
+                &-li
+                {
+                    margin: 10px 0px;
+                }
             }
         }
     }

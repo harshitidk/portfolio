@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div class="top">
-        <div class="top-pic"></div>
-        <div class="top-name">Harshit Kumar</div>
+        <div class="top-pic" data-aos="flip-up"></div>
+        <div class="top-name" data-aos="flip-up" data-aos-duration="2000">Harshit Kumar</div>
         <div class="top-slash">\/</div>
         <div class="top-design">
             <div class="top-design-c1"></div>
@@ -19,13 +20,31 @@
     </div>
     <div class="top-design-c2"></div>
     <div class="sec">
-        <div class="top-design-c1 sec-design-c1">
+        <div class="top-design-c1 sec-design-c1" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
             <div class="sec-design-c1-about-h">About Me</div>
             <div class="sec-design-c1-about-p">Hey there ! I'm Harshit - I am a designer, programmer, artist, organizer, writer and an entrepreneur.
-                All these skills aren't a part of any of my mastermind plan, these <a class="hover" href="#">read more...</a>
-            </div></div>
+                All these skills are the bi-product of the time i put in the work, these <a class="hover" href="#">read more...</a>
+            </div>
+        </div>
+        <div class="top-design-c1 sec-design-c2" data-aos="fade-up"
+        data-aos-duration="1500">
+            <div class="sec-design-c2-skh">Skills</div>
+            <div class="sec-design-c2-skl">
+                <div class="sec-design-c2-skl-li">Graphic Designer</div>
+                <div class="sec-design-c2-skl-li">Web Developer</div>
+                <div class="sec-design-c2-skl-li">Python Automation</div>
+                <div class="sec-design-c2-skl-li">Core Java</div>
+                <div class="sec-design-c2-skl-li">UI/UX Designer</div>
+                <div class="sec-design-c2-skl-li">Content Manager</div>
+            </div>
+        </div>
         </div>
     </div>
 </body>
-<script src="https://kit.fontawesome.com/ed19afa8b1.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>
